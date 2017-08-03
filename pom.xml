@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Anfina</groupId>
+  <artifactId>Crawler</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Crawler</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+		<groupId>com.codoid.products</groupId>
+		<artifactId>fillo</artifactId>
+		<version>1.15</version>
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-java</artifactId>
+		<version>3.4.0</version>
+	</dependency>
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>6.8</version>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+    <groupId>com.github.peterbencze</groupId>
+    <artifactId>serritor</artifactId>
+    <version>1.2</version>
+</dependency><dependency>
+  <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+  <groupId>org.jsoup</groupId>
+  <artifactId>jsoup</artifactId>
+  <version>1.10.3</version>
+</dependency>
+</dependencies>
+
+</project>
